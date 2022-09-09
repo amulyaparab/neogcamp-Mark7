@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Morse code</title>
     <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
       body {
         margin: 0px;
+        font-family: "Lato", sans-serif;
       }
       header {
         background-color: black;
@@ -18,10 +20,11 @@
       textarea {
         display: block;
         height: 15vh;
-        width: 50%;
+        width: 55%;
         padding: 1rem;
         margin: auto;
         margin-top: 4rem;
+        font-size: 1rem;
       }
 
       #btn-translate {
@@ -63,8 +66,16 @@
     ></textarea>
 
     <button id="btn-translate">Translate to Morse Code</button>
-    <div id="output"></div>
-    <footer>about</footer>
+    <div style="font-size: 2rem" id="output"></div>
+    <footer>
+      Did you know?
+      <div style="padding-top: 1rem">
+        Morse code was invented by Samuel Morse in 1838. It was used for
+        transmitting complex messages either by a telegraph or analogous visual
+        cues like flashing lights. It was famously used in World War II, Vietnam
+        War and Korean War. Now almost all countries have deciphered Morse code!
+      </div>
+    </footer>
     <script src="app.js" type="text/javascript"></script>
   </body>
 </html>

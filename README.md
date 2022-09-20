@@ -6,6 +6,3 @@
 * How it works:
   The app takes input from the user in the form of text in English, upon clicking the translate button it gives it to a translation API and thereby showing output in the required language, in this case: morse code.
 
-# API reference:
-
-https://api.funtranslations.com/translate/morse.json
